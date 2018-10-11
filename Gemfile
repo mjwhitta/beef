@@ -6,6 +6,8 @@
 # See the file 'doc/COPYING' for copying permission
 #
 
+gem 'bigdecimal'
+gem 'etc'
 gem 'eventmachine'
 gem 'thin'
 gem 'sinatra', '~> 2.0'

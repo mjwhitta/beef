@@ -104,3 +104,6 @@ $RECYCLE.BIN/
 
 test/thirdparty/msf/unit/.byebug_history
 /load
+
+# Dynamic docker building folder to minimize docker context
+.docker_alpine

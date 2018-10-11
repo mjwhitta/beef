@@ -111,7 +111,7 @@ install_linux () {
     sudo pacman -S curl git make openssl gcc readline zlib libyaml sqlite bzip2 autoconf automake libtool bison nodejs ruby ruby-rdoc # Installs dependencies
   elif [ "${Distro}" = "Alpine" ]; then
     apk update # Updates repo, dependencies, etc.
-    apk add curl git build-base openssl readline-dev zlib zlib-dev libressl-dev yaml-dev sqlite-dev sqlite libxml2-dev libxslt-dev autoconf libc6-compat ncurses5 automake libtool bison nodejs  # Installs dependencies
+    apk add curl git build-base openssl readline-dev zlib zlib-dev libressl-dev yaml-dev sqlite-dev sqlite libxml2-dev libxslt-dev autoconf libc6-compat ncurses5 automake libtool bison nodejs ruby ruby-dev ruby-rdoc # Installs dependencies
   fi
 }
 
